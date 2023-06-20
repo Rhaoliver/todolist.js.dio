@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title> To Do List </title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>To Do List</h1>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="produtividade">
+                <h3>Acompanhamento de Produtividade</h3>
+                <br>
+                <p> Insira a sua tarefa: </p>
+            </div>
+            <div class="tarefa">
+                <input type="text" id="taskInput" onkeypress="onEnterKeyPress(event)" placeholder="Digite a sua tarefa aqui"><br>
+                <button type="text" onclick="addTask()">Adicionar</button>
+            </div>
+            <div class="tarefas">
+                <ul id="taskList">
+                    <!-- Tarefas adicionadas via botão adicionar -->
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4><a href="https://github.com/Rhaoliver"> | Rhaiza Oliveira | </a> </h4>
+        <p> &copy; 2023. Todos os direitos reservados. </p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body> 
+</html>
