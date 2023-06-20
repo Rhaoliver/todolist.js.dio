@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: lightblue;
+    margin: 15px;
+    padding: 20px;
+    border: solid paleturquoise 2px;
+    border-radius: 10px;
+    text-align: center;
+    color: darkblue;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+main {
+    background-color: lightblue;
+    min-height: 680px;
+    margin: 15px;
+    padding: 20px;
+    border: solid paleturquoise 2px;
+    border-radius: 10px;
+    text-align: center;
+    color: darkblue;
+}
+
+main p {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 380px;
+    height: 25px;
+    text-align: center;
+    border: solid cadetblue 1px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 3px;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: darkblue;
+    border: solid paleturquoise 1px;
+    color: aliceblue;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+.tarefas {
+    margin: 30px 30%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+ul li {
+    text-align: left;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+
+.tarefas input {
+    width: 30px;
+    height: auto;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.checkbox {
+    border-radius: 10px;
+}
+
+footer {
+    background-color: lightblue;
+    text-align: center;
+    height: 78px;
+    margin: 15px;
+    padding: 20px;
+    border: solid paleturquoise 2px;
+    border-radius: 10px;
+    color: darkblue;
+    font-weight: 600;
+}
+
+footer h4 {
+    margin-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media(max-width: 1000px) {
+    .tarefas {
+        margin: 30px 5%;
+    }
+}
+
+@media(max-width: 500px) and (min-width: 320px) {
+    .tarefas {
+        margin: 5px;
+    }
+
+    input {
+        width: auto;
+    }
+
+    footer {
+        height: 90px;
+    }
+}
